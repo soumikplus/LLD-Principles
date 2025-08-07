@@ -1,0 +1,6 @@
+1. What is Builder Design Pattern?
+You have a class with many fields, and you don’t want to pass everything in one long constructor.
+You want to create objects step by step, in a readable and clean way.
+
+Here I have created a Student class with 3 properties
+Used Builder class which is a helper class used to build the student object
