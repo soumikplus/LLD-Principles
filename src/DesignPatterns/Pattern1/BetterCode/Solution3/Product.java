@@ -23,11 +23,11 @@ public class Product {
 
         this.name = b.getName();
         this.price = b.getPrice();
-        this.brand = b.getBrand();
+//        this.brand = b.getBrand();
         this.desc = b.getDesc();
-        this.createdAt = b.getCreatedAt();
-        this.updatedAt = b.getUpdatedAt();
-        this.images = b.getImages();
+//        this.createdAt = b.getCreatedAt();
+//        this.updatedAt = b.getUpdatedAt();
+//        this.images = b.getImages();
     }
     // returning new Builder()
     public static Builder getBuilder(){
@@ -79,6 +79,7 @@ public class Product {
                 this.price = price;
                 return this;
             }
+            return null;
         }
         public Builder setBrand(String brand){
             this.brand = brand;
